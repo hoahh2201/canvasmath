@@ -2,6 +2,7 @@
 /local/*
 service/today-recommendation.yaml
 .DS_Store
+./DS_Store
 /.vscode/*
 
 # Created by https://www.gitignore.io/api/python,pycharm
