@@ -1,14 +1,3 @@
-export GOOGLE_APPLICATION_CREDENTIALS="ilovemath-3ba0ec325eb8.json"
-export GCS_BUCKET="ilovemath.appspot.com"
-export GCP_PROJECT="ilovemath""
-export FIREBASE_CONFIG="firebase_config.json"
-
-
-
-export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
-# magic_math
-# magic_math
-
 ![](https://image.freepik.com/free-vector/math-background_23-2148146269.jpg)
 # Final Project: ilovemath web application
 
