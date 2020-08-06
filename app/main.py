@@ -870,6 +870,9 @@ def get_type_math():
             return "https://www.youtube.com/embed/U-goOl49wRo;https://www.youtube.com/embed/UfUwTtaHyp8;https://www.youtube.com/embed/MLpMVJgl2v8;https://www.youtube.com/embed/ECJfSyg_Obo"
 
 
+from gunicorn.app.wsgiapp import run
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8080)
+    app.run()
+# host='0.0.0.0', port=8080
+# gunicorn==20.0.4

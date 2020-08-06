@@ -26,3 +26,4 @@ tf-estimator-nightly==1.14.0.dev2019060501
 Werkzeug==1.0.1
 wrapt==1.12.1
 zipp==3.1.0
+gunicorn==19.3.0
