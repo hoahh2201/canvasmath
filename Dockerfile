@@ -24,7 +24,8 @@ ADD requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 ADD . .
+WORKDIR /app
 
 #CMD gunicorn -b :$PORT main:app
 ENTRYPOINT ["python"]
-CMD ["app/main.py"]
+CMD ["main.py"]
