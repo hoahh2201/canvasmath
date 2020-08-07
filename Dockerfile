@@ -9,7 +9,7 @@
 # ENTRYPOINT ["python"]
 # CMD ["app/main.py"]
 
-FROM ubuntu:latest
+FROM python:latest
 # LABEL python_version=python3.7
 RUN virtualenv --no-download /env -p python3.7
 
