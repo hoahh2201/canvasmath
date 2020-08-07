@@ -10,8 +10,8 @@
 # CMD ["app/main.py"]
 
 FROM python:latest
-# LABEL python_version=python3.7
-RUN virtualenv --no-download /env -p python3.7
+LABEL python_version=python3.8
+RUN virtualenv --no-download /env -p python3.8
 
 # Set virtualenv environment variables. This is equivalent to running
 # source /env/bin/activate
